@@ -4,6 +4,7 @@ use App\Http\Livewire\Cart;
 use App\Http\Livewire\Contact;
 use App\Http\Livewire\Home;
 use App\Http\Livewire\Login;
+use App\Http\Livewire\Register;
 use App\Http\Livewire\Shop;
 use Illuminate\Support\Facades\Route;
 
@@ -23,4 +24,5 @@ Route::get("/boutique", Shop::class)->name("shop");
 Route::get("/panier", Cart::class)->name("cart");
 Route::get("/contact", Contact::class)->name("contact");
 Route::get("/connexion", Login::class)->name("login");
+Route::get("/inscription", Register::class)->name("register");
 

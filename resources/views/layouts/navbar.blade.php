@@ -15,13 +15,14 @@
                     <div class="topbar-menu left-menu">
                         <ul>
                             <li class="menu-item" >
-                                <a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+                                <a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Téléphone: (+123) 456 789</a>
                             </li>
                         </ul>
                     </div>
                     <div class="topbar-menu right-menu">
                         <ul>
                             <li class="menu-item" ><a title="Register or Login" href="{{route("login")}}"><i class="fa fa-lock"></i> Connexion</a></li>
+                            <li class="menu-item" ><a title="Register or Login" href="{{route("register")}}"><i class="fa fa-file"></i> Inscription</a></li>
                             
                         </ul>
                     </div>
