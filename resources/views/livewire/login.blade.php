@@ -1,14 +1,14 @@
 <div>
     @include('layouts.navbar')
-    
+
     <main id="main" class="main-site left-sidebar">
 
 		<div class="container">
 
 			<div class="wrap-breadcrumb">
 				<ul>
-					<li class="item-link"><a href="#" class="link">home</a></li>
-					<li class="item-link"><span>login</span></li>
+					<li class="item-link"><a href="#" class="link">Accueil</a></li>
+					<li class="item-link"><span>Connexion</span></li>
 				</ul>
 			</div>
 			<div class="row">
@@ -16,25 +16,19 @@
 					<div class=" main-content-area">
 						<div class="wrap-login-item ">						
 							<div class="login-form form-item form-stl">
-								<form name="frm-login">
+								<form name="frm-login" wire:submit.prevent="connecter">
 									<fieldset class="wrap-title">
-										<h3 class="form-title">Log in to your account</h3>										
+										<h3 class="form-title">Formulaire de connexion</h3>										
 									</fieldset>
 									<fieldset class="wrap-input">
-										<label for="frm-login-uname">Email Address:</label>
-										<input type="text" id="frm-login-uname" name="email" placeholder="Type your email address">
+										<label for="frm-login-uname">Email</label>
+										<input type="text" id="frm-login-uname" wire:model="form.email" placeholder="Entrer votre adresse email">
 									</fieldset>
 									<fieldset class="wrap-input">
-										<label for="frm-login-pass">Password:</label>
-										<input type="password" id="frm-login-pass" name="pass" placeholder="************">
+										<label for="frm-login-pass">Mot de passe:</label>
+										<input type="password" id="frm-login-pass" wire:model="form.password" placeholder="************">
 									</fieldset>
 									
-									<fieldset class="wrap-input">
-										<label class="remember-field">
-											<input class="frm-input " name="rememberme" id="rememberme" value="forever" type="checkbox"><span>Remember me</span>
-										</label>
-										<a class="link-function left-position" href="#" title="Forgotten password?">Forgotten password?</a>
-									</fieldset>
 									<input type="submit" class="btn btn-submit" value="Login" name="submit">
 								</form>
 							</div>												

@@ -21,9 +21,12 @@
                     </div>
                     <div class="topbar-menu right-menu">
                         <ul>
+                            @if (Auth()->user())
+                            <livewire:logout />
+                            @else
                             <li class="menu-item" ><a title="Register or Login" href="{{route("login")}}"><i class="fa fa-lock"></i> Connexion</a></li>
                             <li class="menu-item" ><a title="Register or Login" href="{{route("register")}}"><i class="fa fa-file"></i> Inscription</a></li>
-                            
+                            @endif
                         </ul>
                     </div>
                 </div>
@@ -79,6 +82,14 @@
                                 </div>
                             </a>
                         </div>
+                        @if (Auth()->user())
+                        <div class="wrap-icon-section minicart">
+                            <a href="{{route('cart')}}" class="link-direction">
+                                <i class="fa fa-user" aria-hidden="true"> {{Auth()->user()->prenom}}</i>
+                                
+                            </a>
+                        </div>
+                        @endif
                         <div class="wrap-icon-section show-up-after-1024">
                             <a href="#" class="mobile-navigation">
                                 <span></span>
