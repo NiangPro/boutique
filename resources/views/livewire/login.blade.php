@@ -29,7 +29,7 @@
 										<input type="password" id="frm-login-pass" wire:model="form.password" placeholder="************">
 									</fieldset>
 									
-									<input type="submit" class="btn btn-submit" value="Login" name="submit">
+									<input type="submit" class="btn btn-submit" value="Se connecter" name="submit">
 								</form>
 							</div>												
 						</div>

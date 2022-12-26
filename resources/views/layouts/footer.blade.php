@@ -7,32 +7,32 @@
                     <li class="fc-info-item">
                         <i class="fa fa-truck" aria-hidden="true"></i>
                         <div class="wrap-left-info">
-                            <h4 class="fc-name">Free Shipping</h4>
-                            <p class="fc-desc">Free On Oder Over $99</p>
+                            <h4 class="fc-name">Livraison Gratuit</h4>
+                            <p class="fc-desc">Partout</p>
                         </div>
 
                     </li>
                     <li class="fc-info-item">
                         <i class="fa fa-recycle" aria-hidden="true"></i>
                         <div class="wrap-left-info">
-                            <h4 class="fc-name">Guarantee</h4>
-                            <p class="fc-desc">30 Days Money Back</p>
+                            <h4 class="fc-name">Garantie</h4>
+                            <p class="fc-desc">Satisfaction</p>
                         </div>
 
                     </li>
                     <li class="fc-info-item">
                         <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
                         <div class="wrap-left-info">
-                            <h4 class="fc-name">Safe Payment</h4>
-                            <p class="fc-desc">Safe your online payment</p>
+                            <h4 class="fc-name">Mode de paiement</h4>
+                            <p class="fc-desc">Fiable</p>
                         </div>
 
                     </li>
                     <li class="fc-info-item">
                         <i class="fa fa-life-ring" aria-hidden="true"></i>
                         <div class="wrap-left-info">
-                            <h4 class="fc-name">Online Suport</h4>
-                            <p class="fc-desc">We Have Support 24/7</p>
+                            <h4 class="fc-name">En ligne</h4>
+                            <p class="fc-desc">24H/24 et 7j/7</p>
                         </div>
 
                     </li>
@@ -49,7 +49,7 @@
 
                     <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                         <div class="wrap-footer-item">
-                            <h3 class="item-header">We Using Safe Payments:</h3>
+                            <h3 class="item-header">Mode de paiements:</h3>
                             <div class="item-content">
                                 <div class="wrap-list-item wrap-gallery">
                                     <img src="assets/images/payment.png" style="max-width: 260px;">
@@ -57,10 +57,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+                        <div class="wrap-footer-item">
+                           
+                        </div>
+                    </div>
 
                     <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
                         <div class="wrap-footer-item">
-                            <h3 class="item-header">Social network</h3>
+                            <h3 class="item-header">Suivez-nous sur les réseaux sociaux</h3>
                             <div class="item-content">
                                 <div class="wrap-list-item social-network">
                                     <ul>
@@ -75,19 +80,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
-                        <div class="wrap-footer-item">
-                            <h3 class="item-header">Dowload App</h3>
-                            <div class="item-content">
-                                <div class="wrap-list-item apps-list">
-                                    <ul>
-                                        <li><a href="#" class="link-to-item" title="our application on apple store"><figure><img src="assets/images/brands/apple-store.png" alt="apple store" width="128" height="36"></figure></a></li>
-                                        <li><a href="#" class="link-to-item" title="our application on google play store"><figure><img src="assets/images/brands/google-play-store.png" alt="google play store" width="128" height="36"></figure></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                 </div>
                 <div  class="row"></div>

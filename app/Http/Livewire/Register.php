@@ -2,12 +2,15 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\Categorie;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
 
 class Register extends Component
 {
+    public $title ="register";
+
     public $form = [
         "prenom",
         "nom",
@@ -61,6 +64,8 @@ class Register extends Component
 
     public function render()
     {
-        return view('livewire.register')->layout("layouts.app");
+        return view('livewire.register',[
+            "categories" => Categorie::orderBy("name", "ASC")->get()
+        ])->layout("layouts.app");
     }
 }

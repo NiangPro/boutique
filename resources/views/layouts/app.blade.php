@@ -15,6 +15,11 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/chosen.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/color-01.css">
+    <style>
+        .bg-danger{
+            background: #ff2832;
+        }
+    </style>
     @livewireStyles
 </head>
 <body class="home-page home-01 ">
